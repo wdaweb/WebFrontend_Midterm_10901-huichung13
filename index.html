@@ -10,10 +10,10 @@
     <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
     <script src="plugins/jquery-3.5.1.min.js"></script>
     <script src="plugins/bootstrap.bundle.min.js"></script>
-    <!-- <link
+    <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Open+Sans:ital@0;1&display=swap"
         rel="stylesheet" />
-    <script src="https://kit.fontawesome.com/2d0f11d24e.js" crossorigin="anonymous"></script> -->
+    <script src="https://kit.fontawesome.com/2d0f11d24e.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -59,12 +59,13 @@
     <section id="Jslider">
     <!-- <section id="Jslider" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000"> -->
 
-        <div >
+      
         <!-- <div class="carousel-inner"> -->
             <!-- vh-100 滿版-->
             <div class="vh-100 top">
             <!-- <div class="vh-100 carousel-item active top"> -->
-                <img src="imgs/frog.jpg"  style="width: 250px;height: 250px;border-radius: 50%; margin-top: 20%;margin-left: 42%;" />
+                <div class="myf" style="background-image: url(imgs/frog.jpg);"></div>
+                <!-- <img src="imgs/frog.jpg"  style=" margin-top: 20%;margin-left: 42%;" /> -->
 
                 <div class="carousel-caption d-flex flex-column justify-content-center">
                     <h1>Chung, HuiLan</h1>
@@ -72,7 +73,7 @@
                         前/後端 網頁設計
                     </p>
                 </div>
-            </div>
+           
 
         </div>
       </section>
@@ -81,7 +82,7 @@
         <header class="text-center">
             <h2 class="pb-3">About</h2>
             
-            <div><img src="./imgs/frog.jpg" alt="frog" class="about"></div>
+            <div></div>
         </header>
         <article>
             <div class="text-center">
@@ -92,25 +93,22 @@
 
     </section>
 
-    <section id="skill" class="py-5 alert-secondary bg">
+    <section id="skill" class="py-5 bg">
         <header class="text-center container">
             <h2 class="pb-3">Skills</h2>
         </header>
         <article>
-        <div class="skills-prog">
-            <div class="col-8 justify-content-center">
+            <div class="container">
+        <div class="skills-prog text-center">
+            <div class="col ">
 
             <ul>
-                <li data-percent="95"><span>HTML5</span>
+                <li data-percent="90"><span>HTML5 & CSS</span>
                     <div class="skills-bar">
                         <div class="bar"></div>
                     </div>
                 </li>
-                <li data-percent="90"><span>CSS3 & SCSS</span>
-                    <div class="skills-bar">
-                        <div class="bar"></div>
-                    </div>
-                </li>
+                
                 <li data-percent="60"><span>JavaScript</span>
                     <div class="skills-bar">
                         <div class="bar"></div>
@@ -133,57 +131,10 @@
                     </div>
                 </li>
             </ul>
-        </div>
+        </div></div>
         </div>
     </article>
-        <!-- <article class="tab-content py-5 container overflow-hidden">
-            <ul class="list-unstyled overflow-hidden row">
-                <li class="col-lg-6 media flex-column flex-sm-row align-items-center mb-4">
-                    <img src="https://fakeimg.pl/400x300/" class="pb-3 col-sm-6">
-                    <div class="media-body col-sm-6">
-                        <h5 class="mt-0 mb-1">Media heading</h5>
-                        <p class="border-bottom border-info pb-3">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                            metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
-                            viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                            felis in faucibus.</p>
-                    </div>
-                </li>
-
-                <li class="col-lg-6 media flex-column flex-sm-row align-items-center mb-4">
-                    <img src="https://fakeimg.pl/400x400/" class="pb-3 col-sm-6">
-                    <div class="media-body col-sm-6">
-                        <h5 class="mt-0 mb-1">Media heading</h5>
-                        <p class="border-bottom border-info pb-3">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                            metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
-                            viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                            felis in faucibus.</p>
-                    </div>
-                </li>
-
-                <li class="col-lg-6 media flex-column flex-sm-row align-items-center mb-4">
-                    <img src="https://fakeimg.pl/400x400/" class="pb-3 col-sm-6">
-                    <div class="media-body col-sm-6">
-                        <h5 class="mt-0 mb-1">Media heading</h5>
-                        <p class="border-bottom border-info pb-3">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                            metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
-                            viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                            felis in faucibus.</p>
-                    </div>
-                </li>
-
-                <li class="col-lg-6 media flex-column flex-sm-row align-items-center mb-4">
-                    <img src="https://fakeimg.pl/400x400/" class="pb-3 col-sm-6">
-                    <div class="media-body col-sm-6">
-                        <h5 class="mt-0 mb-1">Media heading</h5>
-                        <p class="border-bottom border-info pb-3">Cras sit amet nibh libero, in gravida nulla. Nulla vel
-                            metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus
-                            viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue
-                            felis in faucibus.</p>
-                    </div>
-                </li>
-            </ul>
-
-        </article> -->
+      
     </section>
 
 
@@ -192,17 +143,33 @@
             <h2 class="pb-3">Experience</h2>
         </header>
         <article class="py-5 row">
-            <!-- Tab Content -->
-            <div class="tab-content col-12 col-lg-6 mb-3">
+            
+            <div class="col-12 col-lg-6 mb-3">
 
                 <h3>工作</h3>
+                <div>
+                <pre>
+                    MIS
+                    ZZ Company
+                    Apr 2011 - Mar 2019
 
+                    Assistant
+                    TT
+                    Jan 2007 - Apr 2008</pre>
+                </div>
             </div>
-            <!-- Accordin -->
-            <div class="accordion list-group col-12 col-lg-6 px-3" id="foodmenu">
+            
+            <div class="col-12 col-lg-6 px-3">
               
              <h3>學歷</h3>
-              
+              <div><pre>
+                Bachelor of MIS
+                (Management Information System)
+                
+                SHU
+                Jan. 2001 - Apr. 2004
+            </pre>
+            </div>
             </div>
 
 
@@ -215,8 +182,17 @@
     <section id="Portfolio" class="py-5 bg">
         <div class="container">
             <div class="text-center">
-                <h2><i class="fas fa-bezier-curve"></i> Portfolio</h2>
+                <h2> Portfolio</h2>
                 <div class="row">
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="port"><img width="300px" height="250px" src="./imgs/calendar.PNG" alt=""></div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="port"><img width="300px" height="250px" src="./imgs/invoice.PNG" alt=""></div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="port"><img width="300px" height="250px" src="./imgs/countdown.PNG" alt=""></div>
+                    </div>
                     <div class="col-sm-6 col-lg-3">
                         <div class="port"><img width="300px" height="250px" src="./imgs/calendar.PNG" alt=""></div>
                     </div>
