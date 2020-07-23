@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="plugins/bootstrap.min.css" />
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500&family=Open+Sans:ital@0;1&display=swap"
+        rel="stylesheet" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        body{
+          background: #9ABF11; 
+        }
+        .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+    </style>
+</head>
+<body class="vh-100 top">
+    <div class="container">    
+        <fieldset>
+        <legend>Login</legend>
+        <form action="?">
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="acc">帳號</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Account">
+          </div>
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1">密碼</span>
+            </div>
+            <input type="text" class="form-control" placeholder="Password">
+          </div>
+
+
+        
+        <button class="btn btn-light">login</button>
+        <button class="btn btn-light">reset</button>
+    </form>
+    </fieldset>
+</div>
+
+</body>
+</html>

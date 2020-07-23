@@ -1,0 +1,118 @@
+
+body{
+    font-family: "Open Sans" , Arial ,  "Noto Sans TC", "Microsoft JhengHei" ,sans-serif;
+}
+.bg{
+    background: #9ABF11;
+}
+.about{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+}
+.skills-prog {
+    clear: both;
+    background: #9ABF11;
+    padding: 15px;
+  }
+  .skills-prog ul {
+    margin-left: 15px;
+  }
+  
+   .skills-prog ul li {
+    margin-bottom: 8px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+  }
+  
+ .skills-prog ul li:hover {
+    color: #fdd835;
+  }
+  
+ .skills-prog ul li:hover .skills-bar .bar {
+    background: #fdd835;
+    box-shadow: 0 0 0 1px #fdd835;
+  }
+  
+ .skills-prog ul li span {
+    display: block;
+    width: 120px;
+  }
+  
+ .skills-prog ul li .skills-bar {
+    background: #ffffff;
+    height: 2px;
+    width: calc(100% - 120px);
+    position: relative;
+    border-radius: 2px;
+  }
+  
+   .skills-prog ul li .skills-bar .bar {
+    position: absolute;
+    top: -1px;
+    height: 4px;
+    background: #ffb300;
+    box-shadow: 0 0 0 #ffb300;
+    border-radius: 5px;
+  }
+  .skills-bar .bar {
+    background: #fdd835;
+    box-shadow: 0 0 0 1px #fdd835;
+  }
+  
+  .skills-prog ul li span {
+    display: block;
+    width: 120px;
+  }
+  
+  .skills-prog ul li .skills-bar {
+    background: #ffffff;
+    height: 2px;
+    width: calc(100% - 120px);
+    position: relative;
+    border-radius: 2px;
+  }
+  
+  .skills-prog ul li .skills-bar .bar {
+    position: absolute;
+    top: -1px;
+    height: 4px;
+    background: #ffb300;
+    box-shadow: 0 0 0 #ffb300;
+    border-radius: 5px;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  .top{
+    position: relative;
+    background:#9ABF11 ;
+  }
+  .top::after{
+    position: absolute;
+    content: "";
+    width: 250px;
+    height: 250px;
+    /* background: red; */
+    background-image: url(/imgs/frog.jpg);
+    border-radius: 50%;
+    margin: 20%;
+    z-index: 11;
+}
+.port{
+    width: 350px;
+    height: 300px;
+    padding: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.port:hover{
+    transform:scale(1.2,1.2);
+}
